@@ -1,0 +1,23 @@
+.hero {
+    background-image: url(./../images/mobile/image-header.jpg);
+    background-position: bottom;
+    background-size: cover;
+
+    height: 538px;
+    text-align: center;
+
+    &__arrow {
+        margin-top: 52px;
+    }
+}
+
+.h1 {
+    font-family: var(--fraunces);
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 6.25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 144px;
+}
