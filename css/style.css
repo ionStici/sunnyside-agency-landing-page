@@ -24,55 +24,154 @@
   align-items: center;
   justify-content: space-between;
 }
+@media only screen and (min-width: 768px) {
+  .header {
+    padding: 34px 48px 0 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    width: 170px;
+  }
+}
+
+.menu-wrapper {
+  position: relative;
+}
 
 .menu-icon {
   cursor: pointer;
-  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
 }
 
+.nav {
+  position: absolute;
+  right: 0;
+  top: 68px;
+  width: 329px;
+  height: 305px;
+  background-color: #fffcf8;
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.15s, opacity 0.15s;
+}
+@media only screen and (min-width: 768px) {
+  .nav {
+    pointer-events: revert;
+    visibility: visible;
+    opacity: 1;
+    position: static;
+    width: revert;
+    height: revert;
+    background-color: revert;
+  }
+}
+.nav::before {
+  content: "";
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: -17px;
+  right: -17px;
+  transform: rotate(-45deg);
+  background-image: linear-gradient(to right bottom, #fff 50%, transparent 50%);
+}
+@media only screen and (min-width: 768px) {
+  .nav::before {
+    display: none;
+  }
+}
 .nav ul {
   list-style: none;
-  display: flex;
-  align-items: center;
+  text-align: center;
+  padding: 39px 0 39px 0;
 }
-.nav li {
-  font-family: var(--barlow);
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: -0.128571px;
+@media only screen and (min-width: 768px) {
+  .nav ul {
+    text-align: revert;
+    padding: revert;
+    display: flex;
+    align-items: center;
+  }
 }
 .nav li:not(:last-child) {
-  margin-right: 47px;
+  margin-bottom: 32px;
 }
-.nav .link,
-.nav .link:link,
-.nav .link:visited {
+@media only screen and (min-width: 768px) {
+  .nav li:not(:last-child) {
+    margin-bottom: revert;
+    margin-right: 47px;
+  }
+}
+
+.link,
+.link:link,
+.link:visited {
+  font-family: var(--barlow);
   text-decoration: none;
-  color: #ffffff;
-  transition: text-shadow 0.15s;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.142857px;
+  color: #808397;
+  transition: color 0.15s, text-shadow 0.15s;
 }
-.nav .link:hover {
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+@media only screen and (min-width: 768px) {
+  .link,
+  .link:link,
+  .link:visited {
+    font-size: 18px;
+    letter-spacing: -0.128571px;
+    color: #ffffff;
+  }
 }
-.nav .link--contact,
-.nav .link--contact:link,
-.nav .link--contact:visited {
+
+.link:hover {
+  color: #24303e;
+}
+@media only screen and (min-width: 768px) {
+  .link:hover {
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.link--contact,
+.link--contact:link,
+.link--contact:visited {
+  display: inline-block;
   font-family: var(--fraunces);
   font-weight: 700;
   font-size: 15px;
+  line-height: 25px;
   letter-spacing: -0.107143px;
   text-transform: uppercase;
   color: #24303e;
-  padding: 16px 30px 15px 32px;
+  padding: 16px 31px 15px 32px;
   border-radius: 50px;
-  background-color: #ffffff;
+  background-color: #fbd600;
   transition: color 0.15s, background-color 0.15s;
 }
-.nav .link--contact:hover {
-  color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.25);
-  text-shadow: none;
+@media only screen and (min-width: 768px) {
+  .link--contact,
+  .link--contact:link,
+  .link--contact:visited {
+    background-color: #ffffff;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .link--contact:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.25);
+    text-shadow: none;
+  }
 }
 
 .hero {
@@ -82,8 +181,23 @@
   height: 538px;
   text-align: center;
 }
+@media only screen and (min-width: 600px) {
+  .hero {
+    background-image: url(./../images/desktop/image-header.jpg);
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .hero {
+    height: 800px;
+  }
+}
 .hero__arrow {
   margin-top: 52px;
+}
+@media only screen and (min-width: 1000px) {
+  .hero__arrow {
+    margin-top: 96.5px;
+  }
 }
 
 .h1 {
@@ -95,6 +209,19 @@
   text-transform: uppercase;
   color: #ffffff;
   padding-top: 144px;
+}
+@media only screen and (min-width: 900px) {
+  .h1 {
+    font-size: 56px;
+    line-height: 69px;
+    letter-spacing: 8.75px;
+    padding-top: 160px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .h1 {
+    padding-top: 195px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,8 +6,20 @@
     height: 538px;
     text-align: center;
 
+    @media only screen and (min-width: 600px) {
+        background-image: url(./../images/desktop/image-header.jpg);
+    }
+
+    @media only screen and (min-width: 1000px) {
+        height: 800px;
+    }
+
     &__arrow {
         margin-top: 52px;
+
+        @media only screen and (min-width: 1000px) {
+            margin-top: 96.5px;
+        }
     }
 }
 
@@ -20,4 +32,15 @@
     text-transform: uppercase;
     color: #ffffff;
     padding-top: 144px;
+
+    @media only screen and (min-width: 900px) {
+        font-size: 56px;
+        line-height: 69px;
+        letter-spacing: 8.75px;
+        padding-top: 160px;
+    }
+
+    @media only screen and (min-width: 1000px) {
+        padding-top: 195px;
+    }
 }
