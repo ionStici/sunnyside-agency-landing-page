@@ -1,0 +1,159 @@
+.ser {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (min-width: 700px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &__text-box {
+        padding: 64px 24px;
+        text-align: center;
+
+        &--1 {
+            order: 2;
+
+            @media only screen and (min-width: 700px) {
+                order: 1;
+            }
+        }
+
+        &--2 {
+            order: 4;
+        }
+    }
+
+    &__h2 {
+        font-family: var(--fraunces);
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 39px;
+        letter-spacing: -0.228571px;
+        color: #24303e;
+        margin-bottom: 24px;
+    }
+
+    &__p {
+        font-family: var(--barlow);
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: -0.128571px;
+        color: #808397;
+        margin-bottom: 32px;
+    }
+
+    &__img {
+        background-position: center;
+        background-size: cover;
+        height: 312px;
+
+        @media only screen and (min-width: 500px) {
+            height: 400px;
+        }
+
+        @media only screen and (min-width: 600px) {
+            height: 450px;
+        }
+
+        &--egg {
+            background-image: url(./../images/mobile/image-transform.jpg);
+            order: 1;
+        }
+
+        &--red-cup {
+            background-image: url(./../images/mobile/image-stand-out.jpg);
+            order: 3;
+        }
+    }
+
+    &__img-text {
+        position: relative;
+        background-position: top;
+        background-size: cover;
+        height: 600px;
+        text-align: center;
+
+        @media only screen and (min-width: 500px) {
+            height: 700px;
+        }
+
+        @media only screen and (min-width: 600px) {
+            height: 775px;
+        }
+
+        &--1 {
+            background-image: url(./../images/mobile/image-graphic-design.jpg);
+            order: 5;
+        }
+
+        &--2 {
+            background-image: url(./../images/mobile/image-photography.jpg);
+            order: 6;
+        }
+
+        div {
+            padding: 0 24px;
+            width: 100%;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 59px;
+        }
+
+        h3 {
+            font-family: var(--fraunces);
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 35px;
+            letter-spacing: -0.2px;
+            color: #24554a;
+            margin-bottom: 27px;
+        }
+
+        p {
+            font-family: var(--barlow);
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 27px;
+            letter-spacing: -0.114286px;
+            color: #24554a;
+        }
+    }
+}
+
+.link,
+.link:link,
+.link:visited {
+    font-family: var(--fraunces);
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24303e;
+    text-decoration: none;
+    position: relative;
+
+    &::before {
+        content: "";
+
+        width: 137px;
+        height: 10px;
+        border-radius: 50px;
+        background-color: rgba(250, 212, 0, 0.25);
+        transition: background-color 0.15s;
+
+        position: absolute;
+        z-index: -1;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -3px;
+    }
+}
+
+.link:hover::before {
+    background-color: #fad400;
+}

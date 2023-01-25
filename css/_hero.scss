@@ -10,14 +10,14 @@
         background-image: url(./../images/desktop/image-header.jpg);
     }
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
         height: 800px;
     }
 
     &__arrow {
         margin-top: 52px;
 
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 900px) {
             margin-top: 96.5px;
         }
     }
@@ -40,7 +40,7 @@
         padding-top: 160px;
     }
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 900px) {
         padding-top: 195px;
     }
 }

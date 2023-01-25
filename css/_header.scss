@@ -109,9 +109,9 @@
     }
 }
 
-.link,
-.link:link,
-.link:visited {
+.nav__link,
+.nav__link:link,
+.nav__link:visited {
     font-family: var(--barlow);
     text-decoration: none;
     font-weight: 600;
@@ -128,7 +128,7 @@
     }
 }
 
-.link:hover {
+.nav__link:hover {
     color: #24303e;
 
     @media only screen and (min-width: 768px) {
@@ -137,9 +137,9 @@
     }
 }
 
-.link--contact,
-.link--contact:link,
-.link--contact:visited {
+.nav__link--contact,
+.nav__link--contact:link,
+.nav__link--contact:visited {
     display: inline-block;
     font-family: var(--fraunces);
     font-weight: 700;
@@ -160,7 +160,7 @@
     }
 }
 
-.link--contact:hover {
+.nav__link--contact:hover {
     @media only screen and (min-width: 768px) {
         color: #ffffff;
         background-color: rgba(255, 255, 255, 0.25);
