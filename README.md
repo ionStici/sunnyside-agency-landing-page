@@ -2,11 +2,16 @@
 
 This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef).
 
-| **Links** | [Solution URL](https://github.com/ionStici/time-tracking-dashboard-fem) | [Live Site URL](https://ionstici.github.io/time-tracking-dashboard-fem) |
-| --------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+## Links
 
-| **Author** | [GitHub](https://github.com/ionStici) | [FE Mentor](https://www.frontendmentor.io/profile/ionStici) | [Twitter](https://twitter.com/ionStici_) |
-| ---------- | ------------------------------------- | ----------------------------------------------------------- | ---------------------------------------- |
+-   [Solution URL](https://github.com/ionStici/time-tracking-dashboard-fem)
+-   [Live Site URL](https://ionstici.github.io/time-tracking-dashboard-fem)
+
+## Author
+
+-   [GitHub](https://github.com/ionStici)
+-   [FE Mentor](https://www.frontendmentor.io/profile/ionStici)
+-   [Twitter](https://twitter.com/ionStici_)
 
 <br>
 
