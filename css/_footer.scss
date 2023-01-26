@@ -1,0 +1,57 @@
+.footer {
+    background-color: #90d4c6;
+    padding: 64px 39px 80px 39px;
+    text-align: center;
+
+    @media only screen and (min-width: 768px) {
+        padding: 72px 0;
+    }
+
+    &__logo {
+        width: 170px;
+        height: 33px;
+        margin-bottom: 40px;
+    }
+
+    ul {
+        max-width: 300px;
+        margin: 0 auto;
+        margin-bottom: 88px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a,
+    a:link,
+    a:visited {
+        text-decoration: none;
+        font-family: var(--barlow);
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -0.128571px;
+        color: #458d7e;
+        transition: color 0.15s;
+    }
+
+    a:hover {
+        color: #fff;
+    }
+
+    svg {
+        cursor: pointer;
+    }
+
+    svg:not(:last-child) {
+        margin-right: 28px;
+    }
+
+    path {
+        transition: fill 0.15s;
+    }
+
+    svg:hover path {
+        fill: #fff;
+    }
+}

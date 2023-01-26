@@ -90,7 +90,7 @@ body {
   top: -17px;
   right: -17px;
   transform: rotate(-45deg);
-  background-image: linear-gradient(to right bottom, #fff 50%, transparent 50%);
+  background-image: linear-gradient(to right bottom, #fffcf8 50%, transparent 50%);
 }
 @media only screen and (min-width: 768px) {
   .nav::before {
@@ -634,6 +634,57 @@ body {
   .gallery__img--4 {
     background-image: url(./../images/desktop/image-gallery-sugarcubes.jpg);
   }
+}
+
+.footer {
+  background-color: #90d4c6;
+  padding: 64px 39px 80px 39px;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .footer {
+    padding: 72px 0;
+  }
+}
+.footer__logo {
+  width: 170px;
+  height: 33px;
+  margin-bottom: 40px;
+}
+.footer ul {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 88px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.footer a,
+.footer a:link,
+.footer a:visited {
+  text-decoration: none;
+  font-family: var(--barlow);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.128571px;
+  color: #458d7e;
+  transition: color 0.15s;
+}
+.footer a:hover {
+  color: #fff;
+}
+.footer svg {
+  cursor: pointer;
+}
+.footer svg:not(:last-child) {
+  margin-right: 28px;
+}
+.footer path {
+  transition: fill 0.15s;
+}
+.footer svg:hover path {
+  fill: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
