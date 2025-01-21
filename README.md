@@ -1,53 +1,25 @@
 # Sunnyside agency landing page solution
 
-This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef).
+This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Links
+Welcome to the "Sunnyside Agency Landing Page" challenge from Frontend Mentor. This project showcases a landing page for a creative agency, built using HTML for structure, CSS/Sass for styling, and JavaScript to handle the functionality of opening the mobile navigation.
 
--   [Solution URL](https://github.com/ionStici/time-tracking-dashboard-fem)
--   [Live Site URL](https://ionstici.github.io/time-tracking-dashboard-fem)
+## Links and Preview
 
-## Author
+| [Live Demo URL](https://ionstici.github.io/sunnyside-agency-landing-page) | [Frontend Mentor](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-cuzM7Sz3rd) |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 
--   [GitHub](https://github.com/ionStici)
--   [FE Mentor](https://www.frontendmentor.io/profile/ionStici)
--   [Twitter](https://twitter.com/ionStici_)
-
+<details>
+<summary><b>Open Preview Image</b></summary>
 <br>
 
 ![](./images/screenshot.png)
 
-<!-- ### Primary
+<br>
+</details>
 
-- Soft red: hsl(7, 99%, 70%)
-- Yellow: hsl(51, 100%, 49%)
-- Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)
-- Dark blue (photography text): hsl(198, 62%, 26%)
-- Dark moderate cyan (footer): hsl(168, 34%, 41%)
+## Tech Stack
 
-### Neutral
-
-- Very dark desaturated blue: hsl(212, 27%, 19%)
-- Very dark grayish blue: hsl(213, 9%, 39%)
-- Dark grayish blue: hsl(232, 10%, 55%)
-- Grayish blue: hsl(210, 4%, 67%)
-- White: hsl(0, 0%, 100%)
-
-### Body Copy
-
-- Font size: 18px
-
-### Font
-
-- Family: [Barlow](https://fonts.google.com/specimen/Barlow)
-- Weights: 600
-- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
-- Weights: 700, 900
-
-## Icons
-
-We provide the required social icons. But, if you prefer, you can use a font icon library. Some suggestions can be found below:
-
-- [Font Awesome](https://fontawesome.com)
-- [IcoMoon](https://icomoon.io)
-- [Ionicons](https://ionicons.com) -->
+-   **HTML5:** For the semantic structure of the landing page.
+-   **CSS3 with Sass:** For styling, making use of Sass features like variables and nesting for cleaner code.
+-   **JavaScript:** To manage the mobile navigation toggle, ensuring a smooth user experience on mobile devices.
